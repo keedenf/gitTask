@@ -1,5 +1,5 @@
 def input_not_null(prompt):
-    '''Checks that user input is not NULL or a number'''
+    '''Checks that user input is not NULL or is a number'''
     while True:
         user_input = input(prompt)
         if user_input == "" or user_input.isdigit():
